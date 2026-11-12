@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produção de Conteúdo | Vianney Fernandes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+        .sticky-top { background: white; border-bottom: 2px solid #0d47a1; }
+        
+        /* Estilização dos Botões das Plataformas */
+        .platform-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .platform-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            color: #000;
+        }
+        
+        /* Cores de destaque para cada rede ao passar o mouse */
+        .btn-instagram:hover { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); color: white !important; }
+        .btn-facebook:hover { background-color: #1877f2; color: white !important; }
+        .btn-tiktok:hover { background-color: #010101; color: white !important; }
+        .btn-kwai:hover { background-color: #ff5000; color: white !important; }
+        
+        .platform-icon { font-size: 2.5rem; margin-bottom: 10px; }
+
+        .sobre-mim {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.sobre-mim h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #b45309;
+  font-size: 1.15rem;
+}
+
+.sobre-mim p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+}
+
+.sobre-mim ul {
+  padding-left: 1.2rem;
+  margin: 0 0 1rem 0;
+}
+
+.sobre-mim li {
+  margin-bottom: 0.7rem;
+  list-style: none;
+  position: relative;
+  padding-left: 0.3rem;
+}
+
+.frase-destaque {
+  margin-top: 1.8rem;
+  padding: 1rem;
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  font-weight: 500;
+  text-align: center !important;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .sobre-mim {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
+    </style>
+</head>
+<body>
+
+<!-- Navegação Facilitada -->
+<nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand text-primary fw-bold" href="index.html">VF | PORTFÓLIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user"></i> Sobre Mim</a></li>
+                <li class="nav-item"><a class="nav-link" href="power.html"><i class="fas fa-chart-bar"></i> Projetos BI</a></li>
+                <li class="nav-item"><a class="nav-link active" href="videos.html"><i class="fas fa-play-circle"></i> Produção de Conteúdo</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-dark">Projetos Digitais & Vídeos</h2>
+<div class="sobre-mim">
+  <p>Ao participar do MBA em Engenharia de Dados, onde estudamos, desenvolvemos e aplicamos estratégias práticas para impulsionar alcance, engajamento e crescimento de canais e conteúdos digitais. Meu trabalho combina análise de dados, criação de postagens próprias e edição de vídeos profissionais — transformando conhecimento em resultados reais nas plataformas.</p>
+
+  <h3>📱 Minha Atuação nas Plataformas</h3>
+  <p>No Kwai, minha missão é clara: aumentar o engajamento de forma autêntica e simples, seguindo sempre as diretrizes da plataforma e aplicando os princípios da Regra dos 3C — Conteúdo, Consistência e Conexão. Acredito que um conteúdo bem estruturado e alinhado ao público é o caminho mais eficaz para crescer de maneira sustentável.</p>
+
+  <h3>💛 Valores que Guio Todo o Meu Trabalho</h3>
+  <ul>
+    <li>✨ Respeito contínuo às mulheres, valorizando sua presença, voz e protagonismo em todos os espaços;</li>
+    <li>💃 Reconhecimento e valorização de todos os estilos de dança e música, celebrando a diversidade cultural e a riqueza das diferentes manifestações artísticas;</li>
+    <li>🤝 Inclusão, respeito e empatia como base de toda interação com a comunidade.</li>
+  </ul>
+
+  <p class="frase-destaque">"Construindo engajamento com estratégia, criatividade e respeito por todas as pessoas e todas as culturas."</p>
+</div>
+
+        <p class="lead text-muted">Abaixo, selecione uma plataforma para visitar meu perfil oficial ou veja os detalhes da estratégia de conteúdo.</p>
+    </div>
+
+    <!-- SEÇÃO: BOTÕES DAS PLATAFORMAS (Abrem em nova aba) -->
+    <div class="row g-3 mb-5 text-center">
+        <!-- Instagram -->
+        <div class="col-6 col-md-3">
+            <a href="https://www.instagram.com/vianney_rfcosta" target="_blank" class="card p-4 shadow-sm platform-card btn-instagram">
+                <i class="fab fa-instagram platform-icon"></i>
+                <h5 class="fw-bold mb-1">Instagram</h5>
+                <small class="text-muted">+1.200 Seguintes</small>
+            </a>
+        </div>
+        
+        <!-- Facebook -->
+        <div class="col-6 col-md-3">
+            <a href="https://www.facebook.com/vianney.fernandes.9406" target="_blank" class="card p-4 shadow-sm platform-card btn-facebook">
+                <i class="fab fa-facebook platform-icon"></i>
+                <h5 class="fw-bold mb-1">Facebook</h5>
+                <small class="text-muted">+900 Seguidores</small>
+            </a>
+        </div>
+
+        <!-- TikTok -->
+        <div class="col-6 col-md-3">
+            <a href="https://www.tiktok.com/@naney_f" target="_blank" class="card p-4 shadow-sm platform-card btn-tiktok">
+                <i class="fab fa-tiktok platform-icon"></i>
+                <h5 class="fw-bold mb-1">TikTok</h5>
+                <small class="text-muted">Novos Formatos</small>
+            </a>
+        </div>
+
+        <!-- Kwai (Usa ícone alternativo de vídeo pois não há nativo no FontAwesome antigo) -->
+        <div class="col-6 col-md-3">
+            <a href="https://kwai-video.com/u/@VianneyFernandes/POCCx6bs" target="_blank" class="card p-4 shadow-sm platform-card btn-kwai">
+                <i class="fas fa-video platform-icon"></i>
+                <h5 class="fw-bold mb-1">Kwai</h5>
+                <small class="text-muted">+20.000 Seguidores</small>
+            </a>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <!-- SEÇÃO: EXEMPLOS DE PRODUÇÃO E RETENÇÃO -->
+    <h3 class="mb-4 text-secondary"><i class="fas fa-photo-video"></i> Análise de Formatos & Retenção</h3>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card Vídeo 1 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-9x16 bg-dark text-white d-flex align-items-center justify-content-center p-3 text-center" style="min-height: 300px;">
+                    <div><br>
+                        <i class="fas fa-mobile-alt fa-3x mb-3 text-warning"></i>
+                        <h6>Edição Mobile Alta Performance</h6>
+                        <small class="d-block text-muted">CapCut / InShot</small>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Retenção nos Primeiros 3 Segundos</h5>
+                    <p class="card-text text-muted">Aplicação de gatilhos visuais e cortes dinâmicos para diminuir a taxa de rejeição do feed orgânico.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Vídeo 2 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-9x16 bg-dark text-white d-flex align-items-center justify-content-center p-3 text-center" style="min-height: 300px;">
+                    <div><br>
+                        <i class="fas fa-chart-line fa-3x mb-3 text-info"></i>
+                        <h6>Crescimento Exponencial</h6>
+                        <small class="d-block text-muted">Algoritmo do Kwai</small>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Análise de Engajamento</h5>
+                    <p class="card-text text-muted">Monitoramento de compartilhamentos e comentários para forçar a entrega do conteúdo para novos públicos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card Vídeo 3 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <div class="ratio ratio-9x16 bg-dark text-white d-flex align-items-center justify-content-center p-3 text-center" style="min-height: 300px;">
+                    <div><br>
+                        <i class="fas fa-sync fa-3x mb-3 text-success"></i>
+                        <h6>Estratégia Cross-Media</h6>
+                        <small class="d-block text-muted">Clipchamp / Conteúdo Longo</small>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Adaptação de Formatos</h5>
+                    <p class="card-text text-muted">Como um único conteúdo bruto foi reciclado e otimizado para render em 4 plataformas diferentes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-primary btn-lg px-5 shadow-sm"><i class="fas fa-arrow-left"></i> Voltar ao Currículo</a>
+    </div>
+</main>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>© 2026 Vianney Fernandes | Inteligência de Dados aplicada ao Marketing Digital.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
