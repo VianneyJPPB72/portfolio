@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Online — Vianney Fernandes</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e8f0fc 0%, #f0f4f8 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(10, 36, 99, 0.12);
+            text-align: center;
+            max-width: 520px;
+            width: 100%;
+        }
+        h1 {
+            color: #0a2463;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .subtitulo {
+            color: #4a5568;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+        .imagem-container {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px;
+        }
+        .imagem-container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(10, 36, 99, 0.2);
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .link-direto {
+            background: #ebf4ff;
+            color: #0a2463;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            word-break: break-all;
+            margin-bottom: 15px;
+        }
+        .assinatura {
+            font-size: 13px;
+            color: #718096;
+            margin-top: 10px;
+        }
+        .aviso-sucesso {
+            background: #e6fffa;
+            color: #046c5e;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KCXST5QD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<body>
+    <div class="card">
+        <h1>🎯 Portfólio Online</h1>
+        <p class="subtitulo">Vianney Fernandes — Especialista em Dados • BI • Engenharia de Dados</p>
+
+        <!-- ✅ IMAGEM CLICÁVEL --->
+        <a href="https://vianneyjppb72.github.io/portfolio/index.html" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="imagem-container">
+            <img src="portfolio-banner.jpg" alt="Portfólio Online — Design & Tecnologia em um só lugar">
+        </a>
+
+        <p style="font-size: 14px; color: #4a5568; margin-bottom: 10px;">👆 Clique na imagem acima</p>
+
+        <div class="link-direto">
+            🔗 https://vianneyjppb72.github.io/portfolio/index.html
+        </div>
+
+        <div class="aviso-sucesso">
+            ✅ Abre em uma nova aba | Link funcionando
+        </div>
+
+        <p class="assinatura">João Pessoa — PB • vianney.rfc@gmail.com</p>
+    </div>
+</body>
+</html>

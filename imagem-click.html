@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Online - Vianney Fernandes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 500px;
+        }
+        h1 {
+            color: #0a2463;
+            margin-bottom: 30px;
+        }
+        .imagem-link {
+            display: inline-block;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        .imagem-link:hover {
+            transform: scale(1.02);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .aviso {
+            margin-top: 20px;
+            color: #3e4c6d;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KCXST5QD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>
+
+<body>
+    <div class="container">
+        <h1>🎯 Clique na imagem para acessar meu Portfólio</h1>
+        
+        <!-- ✅ IMAGEM CLICÁVEL COM SEU LINK -->
+        <a href="https://vianneyjppb72.github.io/portfolio/index.html" 
+           target="_blank" 
+           class="imagem-link">
+            <img src="portfolio-imagem.jpg" 
+                 alt="Portfólio Online - Vianney Fernandes"
+                 width="500">
+        </a>
+        
+        <p class="aviso">🔗 Abre em uma nova aba | Vianney Fernandes — Especialista em Dados, BI & Tecnologia</p>
+    </div>
+</body>
+</html>
